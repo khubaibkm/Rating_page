@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+
+.box1{
+    height: 400px;
+    width: 400px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+    margin: auto;
+    position: relative;
+    top: 140px;
+    
+}
+
+.btn{
+    height: 50px;
+    width: 50px;
+    background-color: hsl(216, 12%, 22%);
+    color: hsl(217, 12%, 63%);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn{
+    font-family: 'Overpass', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    position: relative;
+    left: 32px;
+    top: 250px;
+}
+
+.btn0{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    height: 50px;
+    width: 50px;
+    background-color: hsl(216, 12%, 22%);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iccon{
+    position: absolute;
+    left: 17px;
+    top: 17px;
+}
+
+h1{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    top: 100px;
+    color: white;
+    text-align:left;
+    margin: 10px 30px;
+
+}
+
+.para1{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 150px;
+    color: hsl(217, 12%, 63%);
+    text-align: left;
+    margin: 10px 30px;
+    font-size: 15px;
+}
+
+
+#submit{
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    left: 30px;
+    top: 330px;
+    margin: auto;
+    padding: 15px 140px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    letter-spacing: 2px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+
+.btn:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+
+
+
+#submit:hover{
+    cursor: pointer;
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+
+footer{
+    text-align: center;
+    position: relative;
+    top: 160px;
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+}
+
+.a1{
+    text-decoration: none;
+    color: hsl(217, 12%, 63%);
+}
+.a1:hover{
+    color: hsl(214, 4%, 36%);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.a2{
+    text-decoration: none;
+    color: hsl(217, 12%, 63%);
+}
+.a2:hover{
+    color: hsl(25, 97%, 53%);
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+/* ----------------media query--------------------------- */
+
+@media screen and (max-width:450px) {
+    .box1{
+    width: 350px;
+    border-radius: 15px;
+    position: relative;
+    top: 140px;
+    left: 15px;
+    }
+
+    #btn{
+        gap: 15px;
+        position: relative;
+        left: 20px;
+        top: 250px;
+    }
+
+    #submit{
+        position: absolute;
+        left: 20px;
+        top: 330px;
+        padding: 15px 120px;
+    }
+}
+
+
+/* --------------------------------------------------- */
+
+/* second page */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.box2{
+    height: 400px;
+    width: 400px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+    margin: auto;
+    position: relative;
+    bottom: 17rem;
+}
+
+img{
+    position: relative;
+    left: 110px;
+    top: 40px;
+}
+
+.box3{
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    color: hsl(25, 97%, 53%);
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: hsl(216, 12%, 22%);
+}
+
+.achh1{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    top: 230px;
+    left: 90px;
+    color: white;
+    margin: 10px 30px;
+
+}
+
+.p1{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 290px;
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+    margin: 10px 30px;
+    font-size: 15px;
+}
+
+
+/* ---------------media query----------------- */
+@media screen and (max-width: 450px) {
+    .box2{
+        width: 300px;
+        border-radius: 15px;
+        position: absolute;
+        top: 140px;
+        left: 23px;
+        }
+
+    img{
+        position: relative;
+    left: 70px;
+    top: 40px;
+    }
+
+    .achh1{
+        position: absolute;
+        left: 50px;
+    
+    }
+
+    .box3{
+        position: absolute;
+        top: 180px;
+        left: 60px;
+    }
+}
